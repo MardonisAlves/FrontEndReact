@@ -10,6 +10,7 @@ import Routes from './router'
 export default props => (
     <div className="container">
             <Menu />
-  			      
+  			<Routes />     
     </div>
 )
+
