@@ -1,6 +1,6 @@
 import React ,{Component} from 'react'
 
-export default  class Todo extends Component {
+ export default class Todo extends Component {
 	render(){
 		return(
 
@@ -11,3 +11,4 @@ export default  class Todo extends Component {
 			)
 	}
 } 
+
