@@ -7,9 +7,11 @@ export default props => {
 
     const keyHandler = (e) => {
         if(e.key === "Enter"){
-            e.shiftkey ? props.handleSearch() : props.handleAdd()
+            props.handleAdd()
         }else if (e.key === "Escape"){
             props.handleClear()
+        }else if (e.key === "Shift"){
+             props.handleSearch()   
         }
     }
 
