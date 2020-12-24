@@ -21,12 +21,11 @@ const TodoForm  = props => {
 
     return(
         <div role='form' className="todoForm">
-
         <Grid cols='8 8 8'>
-            <input id="descripction" className="form-control" placeholder="add tarefa"
-            defaultValue={props.description} 
+            <input id="descripction" className="form-control" placeholder="add tarefa" 
             onChange={props.changeDescription} 
-            onKeyUp={keyHandler}></input> 
+            onKeyUp={keyHandler}
+            value={props.description}></input> 
        </Grid>
 
 
